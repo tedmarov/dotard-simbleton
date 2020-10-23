@@ -1,1 +1,7 @@
-console.log("Welcome to the main module")
+import { BizList } from "./BusinessList.js"
+import { useBiz } from "./BusinessProvider.js"
+
+const allTheBiz = useBiz()
+
+BizList()
+
